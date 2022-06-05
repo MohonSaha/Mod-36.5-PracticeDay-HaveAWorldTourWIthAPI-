@@ -75,5 +75,13 @@ const result6 = serialNo.filter(num => (num%7 == 0));
 // });
 
 
-
+const user = {
+    name: "General People",
+    age: "16-40",
+    behivior: "technical",
+    benefit: "Saving time and money"
+};
+const {name, age} = user;
+// const three = user.behivior;
+// console.log(age);
 
